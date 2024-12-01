@@ -213,65 +213,65 @@
 \begin{figure}[H]
     \centering
     
-    \begin{minipage}[b]{0.3\textwidth}
+    \begin{subfigure}[b]{0.3\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Images/generate_a_shadow_guardian_for_me-_a_fast_and_agile_unit_that_uses_shadows_to_move_stealthily_it_is_3l1e7gv2j4sa3vny4dns_0.png}
         \caption{Теневой Страж}
-    \end{minipage}
+    \end{subfigure}
     \hfill
-    \begin{minipage}[b]{0.3\textwidth}
+    \begin{subfigure}[b]{0.3\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Images/gliding_horror-_a_huge_creature_made_up_of_darkness_and_fear_he_can_cause_fear_in_opponents_by_slow_4pa60qlbn42z5ked53fx_0.png}
         \caption{Скользящий Ужас}
-    \end{minipage}
+    \end{subfigure}
     \hfill
-    \begin{minipage}[b]{0.3\textwidth}
+    \begin{subfigure}[b]{0.3\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Images/the_cursed_magician-_a_former_resident_of_the_empire_now_serves_the_dark_forces_uses_destructive_ma_9u1cdqeqwwlluw2tpn9r_0.png}
         \caption{Проклятый Маг}
-    \end{minipage}
+    \end{subfigure}
 
     \vspace{1cm}
 
     
-    \begin{minipage}[b]{0.3\textwidth}
+    \begin{subfigure}[b]{0.3\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Images/undead-_a_creature_neither_alive_nor_dead_a_skeleton_wandering_the_world_the_remnants_of_his_mind_t_ts58i8rwbo7ah2nviu2a_2.png}
         \caption{Нежить}
-    \end{minipage}
+    \end{subfigure}
     \hfill
-    \begin{minipage}[b]{0.3\textwidth}
+    \begin{subfigure}[b]{0.3\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Images/the_first_guardian_is_an_echo_of_the_past_a_spirit_of_wisdom_with_the_ability_to_see_past_events_it_lrq9vf07vf4um5h48oi3_0.png}
         \caption{Первый Хранитель}
-    \end{minipage}
+    \end{subfigure}
     \hfill
-    \begin{minipage}[b]{0.3\textwidth}
+    \begin{subfigure}[b]{0.3\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Images/the_second_guardian_is_the_echo_of_sadness-a_tragic_figure_symbolizing_loss_indicates_the_consequen_35b0qcul0wxc15bq9wwy_0.png}
         \caption{Второй Хранитель}
-    \end{minipage}
+    \end{subfigure}
 
     \vspace{1cm}
 
     
-    \begin{minipage}[b]{0.3\textwidth}
+    \begin{subfigure}[b]{0.3\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Images/the_third_guardian_is_the_echo_of_despair-_an_entity_in_its_very_appearance_showing_hopelessness_sa_a5kjao3ddetpnh4tua3c_1.png}
         \caption{Третий Хранитель }
-    \end{minipage}
+    \end{subfigure}
     \hfill
-    \begin{minipage}[b]{0.3\textwidth}
+    \begin{subfigure}[b]{0.3\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Images/the_fourth_guardian_is_the_echo_of_hope-_an_optimistic_spirit_offering_ways_of_redemption_and_the_o_dixkl9tpqrmia9nquu63_3.png}
         \caption{Четвёртый Хранитель}
-    \end{minipage}
+    \end{subfigure}
     \hfill
-    \begin{minipage}[b]{0.3\textwidth}
+    \begin{subfigure}[b]{0.3\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Images/the_fifth_guardian_is_the_echo_of_life-_the_son_of_a_long-dead_mother_nature_the_very_sight_of_him__ysnmjz4uahubcmxgzedz_2.png}
         \caption{Пятый Хранитель}
-    \end{minipage}
+    \end{subfigure}
     
     \caption{Враги и Хранители}
     \label{fig:gallery}
@@ -318,23 +318,23 @@
 \end{itemize}
 \begin{figure}[H]
     \centering
-    \begin{minipage}[b]{0.3\textwidth}
+    \begin{subfigure}[b]{0.3\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Images/дед.jpg}
         \caption{Старый Мудрец - Житель руин}
-    \end{minipage}
+    \end{subfigure}
     \hfill
-    \begin{minipage}[b]{0.3\textwidth}
+    \begin{subfigure}[b]{0.3\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Images/торгаш.jpg}
         \caption{Торговец Артефактами}
-    \end{minipage}
+    \end{subfigure}
     \hfill
-    \begin{minipage}[b]{0.3\textwidth}
+    \begin{subfigure}[b]{0.3\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Images/алкаш.jpg}
         \caption{Призрак Исследователя}
-    \end{minipage}
+    \end{subfigure}
     \caption{NPC и персонажи}
     \label{fig:gallery}
 \end{figure}
