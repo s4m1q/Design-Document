@@ -1,8 +1,11 @@
 \documentclass{article}
-\usepackage{graphicx} % Required for inserting images
 \usepackage[T2A]{fontenc}
 \usepackage{indentfirst}
 \usepackage[left=20mm, top=25mm, right=20mm, bottom=20mm, head= 20mm, nofoot]{geometry}
+\usepackage{graphicx}
+\usepackage{caption} 
+\usepackage{subcaption} 
+\usepackage{float}
 \setlength{\parindent}{0.75 cm}
 \title{Дизайн-документ игры "Echo of Eternity"}
 \author{
@@ -189,6 +192,158 @@
 \subsection{Физическая модель}
 \subsection{Персонаж игрока}
 \subsection{Элементы игры}
+
+\subsubsection{Юниты}
+\textbf{Темные Создания:}
+\begin{itemize}
+    \item \textbf{Теневой Страж:} Быстрый и ловкий юнит, использующий тени для скрытного передвижения. Способен наносить урон издалека.
+    \item \textbf{Скользящий Ужас:} Огромное существо, состоящее из мрака и страха. Умеет вызывать страх у противников, замедляя их действия.
+    \item \textbf{Проклятый Маг:} Бывший житель Империи, теперь служит Темным Силам. Использует разрушительную магию и может создавать иллюзии.
+    \item \textbf{Нежить:} Существо, не живое, ни мёртвое, скелет блуждающий по миру. Остатки рассудка твердят ему «убивай, убивай», или он слышит эхо...
+\end{itemize}
+
+\textbf{Хранители Эха:}
+\begin{itemize}
+    \item \textbf{Первый Хранитель (Эхо Прошлого):} Дух мудрости, обладающий способностью видеть события прошлого. Помогает раскрыть историю Империи.
+    \item \textbf{Второй Хранитель (Эхо Печали):} Трагическая фигура, символизирующая потерю. Указывает на последствия эксперимента и его влияние на мир.
+    \item \textbf{Третий Хранитель (Эхо Отчаяния):} Сущность одним своим видом, показывающая безвыходность, печаль и уныние. Показывает сотни вариантов будущего, ни одно из которых не имеет счастливого конца.
+    \item \textbf{Четвёртый Хранитель (Эхо Надежды):} Оптимистичный дух, предлагающий пути искупления и возможность исправить ошибки.
+    \item \textbf{Пятый Хранитель (Эхо Жизни):} Сын давно погибшей матери-природы. Один его вид вселяет уважение и доброту. Даёт герою силы возродить мир.
+\end{itemize}
+\begin{figure}[H]
+    \centering
+    
+    \begin{minipage}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Images/generate_a_shadow_guardian_for_me-_a_fast_and_agile_unit_that_uses_shadows_to_move_stealthily_it_is_3l1e7gv2j4sa3vny4dns_0.png}
+        \caption{Теневой Страж}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Images/gliding_horror-_a_huge_creature_made_up_of_darkness_and_fear_he_can_cause_fear_in_opponents_by_slow_4pa60qlbn42z5ked53fx_0.png}
+        \caption{Скользящий Ужас}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Images/the_cursed_magician-_a_former_resident_of_the_empire_now_serves_the_dark_forces_uses_destructive_ma_9u1cdqeqwwlluw2tpn9r_0.png}
+        \caption{Проклятый Маг}
+    \end{minipage}
+
+    \vspace{1cm}
+
+    
+    \begin{minipage}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Images/undead-_a_creature_neither_alive_nor_dead_a_skeleton_wandering_the_world_the_remnants_of_his_mind_t_ts58i8rwbo7ah2nviu2a_2.png}
+        \caption{Нежить}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Images/the_first_guardian_is_an_echo_of_the_past_a_spirit_of_wisdom_with_the_ability_to_see_past_events_it_lrq9vf07vf4um5h48oi3_0.png}
+        \caption{Первый Хранитель}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Images/the_second_guardian_is_the_echo_of_sadness-a_tragic_figure_symbolizing_loss_indicates_the_consequen_35b0qcul0wxc15bq9wwy_0.png}
+        \caption{Второй Хранитель}
+    \end{minipage}
+
+    \vspace{1cm}
+
+    
+    \begin{minipage}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Images/the_third_guardian_is_the_echo_of_despair-_an_entity_in_its_very_appearance_showing_hopelessness_sa_a5kjao3ddetpnh4tua3c_1.png}
+        \caption{Третий Хранитель }
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Images/the_fourth_guardian_is_the_echo_of_hope-_an_optimistic_spirit_offering_ways_of_redemption_and_the_o_dixkl9tpqrmia9nquu63_3.png}
+        \caption{Четвёртый Хранитель}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Images/the_fifth_guardian_is_the_echo_of_life-_the_son_of_a_long-dead_mother_nature_the_very_sight_of_him__ysnmjz4uahubcmxgzedz_2.png}
+        \caption{Пятый Хранитель}
+    \end{minipage}
+    
+    \caption{Враги и Хранители}
+    \label{fig:gallery}
+\end{figure}
+
+\textbf{Строения}:
+\begin{itemize}
+    \item \textbf{Руины Древнего Храма:} Место, где проводились эксперименты с магией. Здесь игрок может находить артефакты и подсказки о прошлом.
+    \item \textbf{Лабиринт Теней:} Запутанное пространство, полное ловушек и врагов. Игрок должен использовать свои способности, чтобы избежать опасностей.
+    \item \textbf{Зал Эха:} Священное место, где Хранители Эха собираются. Здесь игрок получает доступ к важной информации и может улучшать свои способности.
+\end{itemize}
+
+\subsubsection{Оружие}
+\textbf{Начальное:}
+\begin{itemize}
+    \item \textbf{Световой Клинок:} Меч, который наносит урон Темным Созданиям и может временно поджигать врагов.
+    \item \textbf{Посох Эха:} Магический посох, позволяющий использовать способности "Эха" для управления пространством и временем.
+    \item \textbf{Лук Теней:} Лук, стреляющий стрелами из темной энергии, которые наносят урон и замедляют врагов.
+\end{itemize}
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Images/1_lightsaber-_a_sword_that_deals_damage_to_dark_creatures_and_can_temporarily_set_enemies_on_fire_2_19czgs525bsuukdxwwls_0.png}
+        \caption{Начальное оружие}
+    \end{subfigure}
+\caption{Оружия}
+    \label{fig:gallery}
+\end{figure}
+\textbf{Доступное для покупки у торговца:}
+\begin{itemize}
+    \item \textbf{Посох чёрного пламени:} Древний артефакт, позволяющий выжигать землю и всю нежить на ней.
+    \item \textbf{Проклятый меч:} После добивания врага этим ужасающим оружием, тот становится монстром, пожирающим двух врагов и исчезающим в бездне.
+    \item \textbf{Морозный Лук:} Наследие древней цивилизации. Замораживает всех, кто был ранен его стрелой.
+    \item \textbf{Посох чёрной дыры:} Открывает всепоглощающую бездну, в которую безвозвратно уходят все, кроме боссов.
+    \item \textbf{Меч короля волков:} При каждом ударе призывает волка, который будет сражаться, пока не погибнет.
+\end{itemize}
+
+\subsubsection{NPC и персонажи}
+\begin{itemize}
+    \item \textbf{Старый Мудрец:} Житель руин, который помогает герою понять его способности и дает советы по выживанию.
+    \item \textbf{Торговец Артефактами:} Продавец редких предметов и артефактов, которые могут помочь в борьбе с Темными Созданиями.
+    \item \textbf{Призрак Исследователя:} Дух исследователя, оставивший подсказки о том, как использовать магию и избегать ловушек в лабиринте.
+\end{itemize}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Images/дед.jpg}
+        \caption{Старый Мудрец - Житель руин}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Images/торгаш.jpg}
+        \caption{Торговец Артефактами}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Images/алкаш.jpg}
+        \caption{Призрак Исследователя}
+    \end{minipage}
+    \caption{NPC и персонажи}
+    \label{fig:gallery}
+\end{figure}
+\subsubsection{Другое}
+\begin{itemize}
+    \item \textbf{Артефакты Эха:} Древние предметы, которые дают игроку уникальные способности или улучшают характеристики (например, увеличение здоровья или силы атаки).
+    \item \textbf{Порталы Бытия:} Специальные точки на уровнях, позволяющие игроку перемещаться между различными временными линиями для получения новых навыков или историй.
+    \item \textbf{Записи прошлого:} Найденные книги или свитки, которые рассказывают о событиях до катастрофы и помогают игроку лучше понять мир.
+\end{itemize}
 \subsection{«Искусственный интеллект»}
 \subsection{Многопользовательский режим}
 \subsection{Интерфейс пользователя}
