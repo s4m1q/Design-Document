@@ -211,20 +211,19 @@
         \item \textbf{Перемещение} персонажа осуществляется с помощью клавиш \textbf{\textit{WASD}}.
         \item \textbf{Ударная механика} реализована таким образом, что игрок может применять атаку с основного оружия по врагам \textbf{\textit{по щелчку ЛКМ}} в направлении щелчка, находясь вблизи к врагу. Также на
         протяжении игры игрок может приобретать усиления и способности, которые активируются при нажатии \textbf{\textit{клавиш 1-5}}. К ним относится \textbf{оружие дальнего боя}, \textbf{оружие, бьющее по площади}, а также \textbf{"зона"} - полупрозрачный круг вокруг игрока, попадая в радиус поражения которого враги погибают.
-        \begin{figure}[h]
+        \begin{figure}[ht]
             \centering
-            \begin{minipage}{0.45\textwidth}
-                \centering
-                \includegraphics[width=\textwidth]{Images/zone.jpg}
-                \caption{Пример зоны в Vampire Survivors}
-                \label{fig:image2}
-            \end{minipage}\hfill
-            \begin{minipage}{0.5\textwidth}
-                \centering
-                \includegraphics[width=\textwidth]{Images/long_distance_attack.jpg}
-                \caption{Пример дальней атаки в Vampire Survivors}
-                \label{fig:image3}
-            \end{minipage}
+            \begin{subfigure}[b]{0.45\textwidth}
+                \center{\includegraphics[width=\textwidth]{Images/zone.jpg}}
+                \caption{Зона в Vampire Survivors}
+                \label{ris:image2}
+            \end{subfigure}\hfill
+            \begin{subfigure}[b]{0.45\textwidth}
+                \center{\includegraphics[width=\textwidth]{Images/long_distance_attack.jpg}}
+                \caption{Дальняя атака в Vampire Survivors}
+                \label{ris:image3}
+            \end{subfigure}
+            \caption{Примеры ударных механик}
         \end{figure}
 
         \item Игрок может применять различные \textbf{заклинания}, которые приобретаются у торговца или по сюжету и активируются при нажатии соответствующих клавиш, например \textit{управление временем} (все враги застывают на своих местах, игрок же может передвигаться по карте и убивать их, таймер волны при этом продолжает идти), \textit{возможность регенерации}.
