@@ -344,6 +344,28 @@
     \item \textbf{Порталы Бытия:} Специальные точки на уровнях, позволяющие игроку перемещаться между различными местами для получения новых навыков или историй.
     \item \textbf{Записи прошлого:} Найденные книги или свитки, которые рассказывают о событиях до катастрофы и помогают игроку лучше понять мир.
 \end{itemize}
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Images/большие яйца.jpg}
+        \caption{Артефакты Эха}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Images/шашлык жарить.jpg}
+        \caption{Торговец Артефактами}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Images/читать.jpg}
+        \caption{Призрак Исследователя}
+    \end{subfigure}
+    \caption{Другое}
+    \label{fig:gallery}
+\end{figure}
 \subsection{«Искусственный интеллект»}
 \subsection{Многопользовательский режим}
 \subsection{Интерфейс пользователя}
