@@ -7,6 +7,7 @@
 \usepackage{subcaption} 
 \usepackage{float}
 \setlength{\parindent}{0.75 cm}
+\renewcommand{\figurename}{Рис}
 \title{Дизайн-документ игры "Echo of Eternity"}
 \author{
 Камалетдинов Тимур \\ 
@@ -437,13 +438,13 @@
     \begin{subfigure}[b]{0.3\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Images/шашлык жарить.jpg}
-        \caption{Торговец Артефактами}
+        \caption{Порталы Бытия}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.3\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Images/читать.jpg}
-        \caption{Призрак Исследователя}
+        \caption{Записи прошлого}
     \end{subfigure}
     \caption{Другое}
     \label{fig:gallery4}
@@ -490,8 +491,6 @@
 \end{itemize}
 \par ИИ не только создает угрозы для игрока, но и предоставляет ему возможности использовать окружающую среду в свою пользу, что способствует более глубокому взаимодействию с миром игры.
 
-
-\subsection{Многопользовательский режим}
 \subsection{Интерфейс пользователя}
 \subsubsection{Блок-схема}
 \subsubsection{Функциональное описание и управление}
