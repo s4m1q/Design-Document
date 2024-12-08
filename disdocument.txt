@@ -513,7 +513,7 @@
 \newpage
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{Block3.png} % Замените на имя файла
+    \includegraphics[width=0.7\textwidth]{Block3.png} 
     \caption{Уровень}
     \label{fig:portals}
 \end{figure}
